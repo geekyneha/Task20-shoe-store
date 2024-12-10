@@ -2,7 +2,8 @@ import React from 'react';
 import style from './productcard.module.css';
 import { products } from '../../utils/product';
 
-const ProductCard = () => {
+const ProductCard = ({onAddtoCart}) => {
+   
   return (
     <>
       <div className={style['product-list']}>
@@ -24,7 +25,7 @@ const ProductCard = () => {
             </div>
             <div className={style['btn-container']}>
               <button className={style['buy-btn']}>Buy now</button>
-              <button className={style['cart-btn']}>Add to cart</button>
+              <button className={style['cart-btn']} onClick={()=>onAddtoCart({name,price,productImage})} >Add to cart</button>
             </div>
           </div>
         )})}
