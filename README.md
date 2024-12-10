@@ -7,3 +7,6 @@
 - add to cart
 - remove from cart
 
+## Deploy link
+
+[click here](https://task20-shoe-store.vercel.app/)
