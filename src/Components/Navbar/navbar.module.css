@@ -1,0 +1,29 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+  
+}
+.navigation > ul {
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+
+
+}
+.logo{
+    width: 15vw;
+}
+.navItem{
+    font-size: 1.5rem;
+    
+}
+
+
+.navItem{
+    list-style: none;
+
+}

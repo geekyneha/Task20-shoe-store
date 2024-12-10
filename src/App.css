@@ -1,0 +1,41 @@
+.App{
+  height: 100vh;
+ 
+  
+}
+.header{
+  height: 10vh;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.main-content{
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left-section{
+  width: 60vw;
+  margin: 10px;
+  background-color: #fff;
+  height: 70vh;
+
+}
+.right-aside{
+ width: 30vw;
+ margin: 10px;
+ height: 70vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+
+.footer{
+  height: 5vh;
+  background: #000;
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+
+}
